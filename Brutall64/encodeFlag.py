@@ -4,7 +4,7 @@ from random import randint
 flag = b'mXpCTF{...}'
 b64ciper = flag
 
-for i in range(randint(1, 50)):
+for i in range(randint(1, 30)):
     b64ciper = b64encode(b64ciper)
-
-open('crazy_cipher.txt', 'a').write(b64ciper.decode())
+print(b64ciper)
+open('crazy_cipher.txt', 'w').write(b64ciper.decode())
