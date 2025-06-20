@@ -1,3 +1,4 @@
+// cara yanda membuat enkripsinya
 def encrypt(flag, key):
     enc = ''
     for i in range(len(flag)):
